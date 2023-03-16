@@ -38,5 +38,20 @@ print(list_1)
 
 """
 
-##Картежи
+##Кортежи - это неизменный список
+
+#t = () # создание пустого  кортежа
+#print(type(t)) #class <'tuple'>
+
+#t = (1,)
+#print(type(t))
+
+#t = (1)
+#print(type(t))# class int
+
+t = (1, 2, 3)
+print(type(t)) # class tuple
+
+
+
 
