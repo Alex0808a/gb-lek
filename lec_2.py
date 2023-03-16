@@ -49,8 +49,37 @@ print(list_1)
 #t = (1)
 #print(type(t))# class int
 
-t = (1, 2, 3)
+t = (1, 2, 3) 
 print(type(t)) # class tuple
+
+
+#список преобразуем в кортеж
+"""
+v = [1, 2, 3]
+print(v)
+print(type(v))
+
+v = tuple(v)
+print(v)
+print(type(v))
+
+a, b, c = v
+print(a, b, c)
+"""
+t = (1, 2, 3,)
+print(t[1]) # кортеж можно выводить по элементам
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
